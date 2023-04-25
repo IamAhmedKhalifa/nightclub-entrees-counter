@@ -79,12 +79,6 @@ button {
     box-shadow: 20 20 20 40px #4b0032;
 }
 
-/* #all-btns:focus-visible {
-    outline-color: transparent;
-    outline-style: solid;
-    box-shadow: 20 0 0 40px #4b0032;
-} */
-
 #save-el {
     font-size: 30px;
 }
