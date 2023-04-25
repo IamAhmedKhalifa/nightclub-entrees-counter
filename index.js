@@ -16,11 +16,3 @@ function save() {
     countEl.textContent = count
     totalEl.textContent = count
 }
-
-function reset() {
-    saveEl.textContent += 0
-}
-
-// function total() {
-//     save() = saveEl += saveEl
-// }
