@@ -1,0 +1,95 @@
+body {
+    background-image: url("bouncers.jpg");
+    background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+main {
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    background-color: darkgrey;
+    border-radius: 10px;
+    margin: 0 auto;
+    opacity: 0.94;
+    border: 0.3rem solid white;
+}
+
+button {
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-weight: bold;
+    width: 250px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+#increment-btn {
+    background: darkred;
+    border: 0.2rem solid #470001;
+}
+
+#increment-btn:hover {
+    background-color: #470001;
+    transition: 0.2s;
+}
+
+#save-btn {
+    background-color: darkgreen;
+    border: 0.2rem solid #003303; 
+}
+
+#save-btn:hover {
+    background-color: #003303;
+    transition: 0.2s;
+}
+
+#reset-btn {
+    background-color: darkorange;
+    border: 0.2rem solid #773f00;
+}
+
+#reset-btn:hover {
+    background-color:#773f00;
+    transition: 0.2s;
+}
+
+#reset-btn:focus-visible {
+    outline-style: solid;
+    box-shadow: 20 20 20 40px #4b0032;
+}
+
+/* #all-btns:focus-visible {
+    outline-color: transparent;
+    outline-style: solid;
+    box-shadow: 20 0 0 40px #4b0032;
+} */
+
+#save-el {
+    font-size: 30px;
+}
+
+#totel-el {
+    font-size: 25px;
+}
+

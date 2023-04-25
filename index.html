@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Author" content="Ahmed Khalifa">
+        <title>People Counter for Nightclub Bouncers</title>
+        <meta name="description" content="Use this counter to work out how many people have entered the nightclub.">
+        <link rel="stylesheet" href="index.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <head>
+    </head>
+    <body>
+        <main>
+            <article>
+                <section id="people">
+                    <h1>People entered:</h1>
+                    <h2 id="count-el">0</h2>
+                </section>
+
+                <section id="all-btns">
+                    <button id="increment-btn" onclick="increment()">INCREMENT ➕</button>
+                    <button id="save-btn" onclick="save()">SAVE 💾</button>
+                    <button id="reset-btn" onclick="reset()">RESET ➖</button>
+                </section>
+                    
+                <section id="numbers">
+                    <p id="save-el">Previous entries: </p>
+                    <p id="totel-el" onclick="total()">Total entries: </p>
+                    <script src="index.js"></script>
+                </section> 
+            </article>
+        </main>
+    </body>
+</html>
